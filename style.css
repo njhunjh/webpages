@@ -1,0 +1,34 @@
+/*
+ *Name: Nirmiti Jhunjhunwala
+ *UnityID: njhunjh
+ *Date: 9/21/2024
+ *Assignment: Website Design and Styling Independent Assignment
+ *Description: CSS for styling the webpage for the music genre assignment
+ */
+ 
+p{
+    font-family: Times New Roman, serif;
+font-size: 16px;
+color: #000000;
+}
+
+.table-border {
+    border: 1px solid ##003366;
+    border-collapse: collapse;
+}
+/* Styling for the table headers */
+th {
+    background-color: #b3c6ff; /* Light blue background for headers */
+    padding: 8px;
+}
+
+/* Styling for the table data */
+td {
+    padding: 8px;
+}
+
+#instrument-image {
+    max-width: 200px;
+    max-height:250pxpx;
+    border: 2px outset #008000;
+    }
