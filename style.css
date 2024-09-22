@@ -5,30 +5,34 @@
  *Assignment: Website Design and Styling Independent Assignment
  *Description: CSS for styling the webpage for the music genre assignment
  */
- 
-p{
-    font-family: Times New Roman, serif;
+ body {
+    background-color: #f0f0f0; /* Ensure this is present */
+}
+ p { 
+    font-family: 'Times New Roman', serif;
 font-size: 16px;
-color: #000000;
+color: #DECAFF;
 }
 
 .table-border {
-    border: 1px solid ##003366;
+    border: 2px solid #DECAFF;
     border-collapse: collapse;
 }
 /* Styling for the table headers */
 th {
     background-color: #b3c6ff; /* Light blue background for headers */
     padding: 8px;
+    border: 1px solid #DECAFF;
 }
 
 /* Styling for the table data */
 td {
     padding: 8px;
+    border: 1px solid #003366;
 }
 
-#instrument-image {
-    max-width: 200px;
-    max-height:250pxpx;
+#photo-styling {
+    width: 200px;
+    height:250px;
     border: 2px outset #008000;
     }
